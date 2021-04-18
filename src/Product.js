@@ -2,6 +2,7 @@ import React from 'react'
 import './Product.css'
 import ReactStars from "react-rating-stars-component";
 import {useStateValue} from "./StateProvider";
+import CheckoutProduct from './CheckoutProduct';
 
 
 function Product({id,title,image,price,rating}) {
@@ -35,6 +36,7 @@ function Product({id,title,image,price,rating}) {
                    count={5}
                     size={20}
                     value={rating}
+                    edit={false}
                     activeColor="#ffd700"
                 />
                     
