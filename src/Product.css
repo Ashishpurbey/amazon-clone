@@ -13,6 +13,12 @@
 
      
  }
+ .product:hover{
+    z-index:2;
+    box-shadow: 0 0 5px 5px rgb(68, 66, 66);
+    transform:scale(1.05,1.05);
+    transition:all .5s ease-in-out;
+ }
 .product > img{
      max-height: 200px;
      width: 100%;
